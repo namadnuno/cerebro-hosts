@@ -1,0 +1,32 @@
+{
+  "name": "cerebro-hosts",
+  "description": "Cerebro plugin for manage /etc/hosts entries",
+  "version": "1.0.0",
+  "author": {
+    "name": "Bruno Paz",
+    "email": "brunopaz@sapo.pt",
+    "url": "http://brunopaz.net"
+  },
+  "repository": {
+    "url": "https://github.com/brpaz/cerebro-hosts"
+  },
+  "dependencies": {
+    "cerebro-tools": "^0.1.8",
+    "cerebro-ui": "^0.0.16",
+    "hostile": "^1.3.0",
+    "node-notifier": "^5.1.2"
+  },
+  "devDependencies": {
+    "cerebro-scripts": "0.0.19"
+  },
+  "main": "dist/index.js",
+  "keywords": [
+    "cerebro",
+    "cerebro-plugin"
+  ],
+  "scripts": {
+    "start": "cerebro-scripts start",
+    "build": "cerebro-scripts build",
+    "test": "cerebro-scripts test"
+  }
+}
